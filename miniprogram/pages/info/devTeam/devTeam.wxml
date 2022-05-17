@@ -8,7 +8,7 @@
 <view class='block'>
   <view class='title'>开源代码</view>
   <view class='desc'>
-    <text selectable='true'>嘉院小程序代码开源啦！配备部署教程及视频~\n特此感谢北大猫协和深大猫协\n{{github_link}}</text>
+    <text selectable='true'>嘉院小程序代码开源啦！配备部署教程及视频~\n特别感谢北大猫协和中大猫协、渔政、circle\n{{github_link}}</text>
     <button class="primary" bindtap='copyOpenSourceLink'>点击复制到剪切板</button>
   </view>
 </view>

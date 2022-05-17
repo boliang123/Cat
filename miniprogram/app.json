@@ -35,6 +35,7 @@
         "selectedIconPath": "./images/tabs/active/cat.png",
         "text": "猫谱"
       },
+
       {
         "pagePath": "pages/science/science",
         "iconPath": "./images/tabs/default/sci.png",
@@ -52,7 +53,8 @@
   "window": {
     "backgroundColor": "#fff",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffd101",
+    "navigationBarBackgroundColor": "#DEC9B2",
+
     "navigationBarTitleText": "嘉院猫谱",
     "navigationBarTextStyle": "black"
   },

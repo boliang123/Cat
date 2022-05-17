@@ -4,25 +4,20 @@
 module.exports = {
   // 科普页图片
   science_imgs: [
-    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/科普1.png",
-    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/科普2.png",
-    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/科普3.png",
-    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/科普4.png",
-    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/科普5.png"
+    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/First.png",
+    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/Second.png",
+    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/Third.png",
+    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/Fourth.png",
+    "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/Fifth.png"
   ],
   // 赞赏码图片
-  reward_img: "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/赞赏码.jpg",
+  reward_img: "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/Charity.jpg",
   // 新猫问卷图片
   feedback_wj_img: "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/新猫问卷.png",
   // 小程序菊花码图片
   mpcode_img: "cloud://cloud1-6g8fep1gaba2720f.636c-cloud1-6g8fep1gaba2720f-1311325658/系统图片/菊花码.jpg",
 
   // 首页banner广告
-  ad_genealogy_banner: "adunit-9a7dcb84fe2c4db1",
-  // 识猫banner广告
-  ad_recognize_banner: "adunit-1b69cda0d1b8c703",
-  // 打赏video广告
-  ad_reward_video: "adunit-eac4513e7b770f93",
 
   // 猫猫领养状态字符串，对应数据库cat.adopt中的数字下标
   cat_status_adopt: ["未领养", "已领养", "寻找领养中"],
@@ -33,7 +28,7 @@ module.exports = {
   msg: {
     //审核结果通知模板
     verify: {
-      id: 'AtntuAUGnzoBumjfmGB8Yyc-67FUxRH5Cw7bnEYFCXo',
+      id: 'GOoYopzqLOM6i4Cko4WtQuhuwVeXyav6IFXmWDOTAco',
       map: {
         title: "thing2", // 标题
         content: "thing7", // 内容
@@ -42,7 +37,7 @@ module.exports = {
     },
     // 提醒审核模版
     notifyVerify: {
-      id: 'jxcvND-iLSQZLZhlHD2A91gY0tLSfzyYc3bl39bxVuk',
+      id: 'hsCkfq1xfTxhcQtE5uX_oCDBEte8t9dB3FEyfYPSCLc',
       map: {
         title: "thing2",
         number: "number5",
@@ -51,7 +46,7 @@ module.exports = {
     },
     // 提醒查看反馈模板
     notifyChkFeedback: {
-      id: 'jxcvND-iLSQZLZhlHD2A97jP3fm_FWV4wL_GFUcLxcQ',
+      id: 'hsCkfq1xfTxhcQtE5uX_oC0MWCalw6wdzXSLX3twzOU',
       map: {
         title: "thing2",
         number: "number5",
@@ -60,7 +55,7 @@ module.exports = {
     },
     // 反馈回复结果模板
     feedback: {
-      id: 'IeKS7nPSsBy62REOKiDC2zuz_M7RbKwR97ZiIy_ocmw',
+      id: 'fQnqyENV6CHMkM9cIBldu_A-xVjCoq-EMnDrB9KD12M',
       map: {
         title: "thing3", // 标题
         content: "thing5", // 内容
@@ -143,7 +138,7 @@ module.exports = {
       ad_fail_tip: "没播完喵...",
       reward_tip_title: "打赏罐头",
       reward_tip: "您的捐款及广告收入将用作猫猫救助，每月的收支都会在嘉院非正式流浪猫组织Q群进行公开，感谢您对嘉院流浪猫的帮助与支持！\n喵(^･ｪ･^)",
-      reward_count_tip: "* 每月统计一次，在QQ群公示，多谢晒（鞠躬）",
+      reward_count_tip: "* 每月统计一次，在QQ群(870592078)公示，多谢晒（鞠躬）",
       reward_title: "爱心捐款",
     },
     // 排行页，pages/info/photoRank/photoRank
@@ -158,15 +153,15 @@ module.exports = {
       share_tip: "信息反馈",
       feedback_tip_title: "留下反馈",
       feedback_tip: "每一条反馈我们都会认真看滴",
-      new_cat_tip_title: "新的猫猫",
-      new_cat_tip: "提交猫谱中没有的猫猫信息，给猫猫上户口~",
+      new_cat_tip_title: "敬请期待",
+      // new_cat_tip: "提交猫谱中没有的猫猫信息，给猫猫上户口~",
       contract_tip_title: "更多联系",
-      contract_tip: "有关猫猫信息添加、小程序的建议、照片维权、猫猫领养咨询等事项，请发邮件：1409810586@qq.com",
+      contract_tip: "有关猫猫信息添加、小程序的建议、照片维权、猫猫领养咨询等事项，请发邮件：1409810586@qq.com\n开发联系方式：2021155841@qq.com\n公众号：我嘉有猫\nQQ群：870592078",
     },
     // 开发团队页，pages/info/devTeam/devTeam
     dev_team: {
       share_tip: "开发团队",
-      team: "程序维护：boliang\n资料维护：小林\n初期资料整理：小林、懒洋洋、小乔、孤云、秦艽\n以及各校区猫群的小伙伴~\n非常欢迎新朋友加入设计开发哇~\n开发联系方式：2021155841@qq.com！",
+      team: "程序维护：boliang、小z\nUI设计：郝宇欣\n资料维护：小林\n初期资料整理：小林、懒洋洋、小乔、孤云、秦艽、小白\n以及各校区猫群的小伙伴~\n非常欢迎新朋友加入设计开发哇~\n开发联系方式：2021155841@qq.com！",
     },
     // 识猫页，pages/recognize/recognize
     recognize: {

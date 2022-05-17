@@ -1,5 +1,5 @@
 <block wx:if="{{auth}}">
-  <view id='top-box'><text>这是打赏记录管理页面！\n修改时，同一月份的打赏记录用'#'分隔哦~</text></view>
+  <view id='top-box'><text>测试</text></view>
   <block wx:for="{{rewards}}" wx:key="mdateStr">
     <view wx:if='{{item.mdate}}' class='reward-box'>
       <view class='label reward'>{{item.mdateStr}}</view>
